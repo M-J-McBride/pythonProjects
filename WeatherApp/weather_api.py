@@ -3,7 +3,7 @@ import requests
 from model import Weather, dt
 import json
 
-API_KEY: Final[str] = '1a2b4bb73c4fca415f1b229d77c99b84'
+API_KEY: Final[str] = ''
 BASE_URL: Final[str] = 'https://api.openweathermap.org/data/2.5/forecast'
 
 def get_weather(city: str, mock:bool = False) -> dict:
